@@ -31,6 +31,8 @@ User Name: sa
 Password
 ```
 
+![Banco de dados H2](https://universos.dev.br/database-h2.jpg)
+
 ## Utilizando com banco de dados MYSQL
 Para rodar o projeto utilizando o banco de dados Mysql deve alterar no arquivo `application.properties` a chave `spring.profiles.active` de **dev** para **prod**.
 
@@ -43,6 +45,8 @@ CREATE DATABASE IF NOT EXISTS act CHARACTER SET utf8mb4 COLLATE utf8mb4_general_
 
 ## Coleção Postman
 Segue um arquivo de **collection** que você pode utilizar para importar em seu *Postman* com todos os endpoints e seus respectivos verbos.
+
+[ACT.postman_collection](https://universos.dev.br/ACT.postman_collection.json)
 
 ## Contribuindo 
 Solicitações pull são bem-vindas. Para mudanças importantes, abra um problema primeiro para discutir o que você gostaria de mudar.
